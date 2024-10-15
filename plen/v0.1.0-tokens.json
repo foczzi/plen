@@ -841,10 +841,327 @@
       }
     }
   },
+  "Primitives/Value": {
+    "Color": {
+      "Primary": {
+        "blue 90": {
+          "value": "#131439",
+          "type": "color"
+        },
+        "blue 70": {
+          "value": "#2d2f86",
+          "type": "color"
+        },
+        "blue 50": {
+          "value": "#5356c5",
+          "type": "color"
+        },
+        "blue 30": {
+          "value": "#a0a1df",
+          "type": "color"
+        },
+        "blue 10": {
+          "value": "#ececf9",
+          "type": "color"
+        }
+      },
+      "Secundary": {
+        "green 90": {
+          "value": "#272b08",
+          "type": "color"
+        },
+        "green 70": {
+          "value": "#768217",
+          "type": "color"
+        },
+        "green 50": {
+          "value": "#c4d926",
+          "type": "color"
+        },
+        "green 30": {
+          "value": "#dce87d",
+          "type": "color"
+        },
+        "green 10": {
+          "value": "#f3f7d4",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "celurean 90": {
+          "value": "#031230",
+          "type": "color"
+        },
+        "celurean 70": {
+          "value": "#004699",
+          "type": "color"
+        },
+        "celurean 50": {
+          "value": "#0b86dc",
+          "type": "color"
+        },
+        "celurean 30": {
+          "value": "#6ec7f7",
+          "type": "color"
+        },
+        "celurean 10": {
+          "value": "#d4eef7",
+          "type": "color"
+        }
+      },
+      "Semantic": {
+        "error 50": {
+          "value": "#cc1500",
+          "type": "color"
+        },
+        "error 30": {
+          "value": "#ff7666",
+          "type": "color"
+        },
+        "warning 50": {
+          "value": "#986700",
+          "type": "color"
+        },
+        "warning 30": {
+          "value": "#ffce66",
+          "type": "color"
+        }
+      },
+      "Grey": {
+        "neutral white": {
+          "value": "#fdfdfd",
+          "type": "color"
+        },
+        "neutral 010": {
+          "value": "#fcfcfd",
+          "type": "color"
+        },
+        "neutral 050": {
+          "value": "#f1f1f4",
+          "type": "color"
+        },
+        "neutral 100": {
+          "value": "#e3e3e8",
+          "type": "color"
+        },
+        "neutral 200": {
+          "value": "#c7c7d1",
+          "type": "color"
+        },
+        "neutral 300": {
+          "value": "#9d9daf",
+          "type": "color"
+        },
+        "neutral 600": {
+          "value": "#5c5c70",
+          "type": "color"
+        },
+        "neutral 700": {
+          "value": "#454554",
+          "type": "color"
+        },
+        "neutral 950": {
+          "value": "#0b0b0e",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Tokens/Light": {
+    "Color": {
+      "background-primary": {
+        "value": "{Color.Grey.neutral white}",
+        "type": "color"
+      },
+      "text-titles": {
+        "value": "{Color.Grey.neutral 950}",
+        "type": "color"
+      },
+      "button-backgroung-primary": {
+        "value": "{Color.Primary.blue 50}",
+        "type": "color"
+      },
+      "button-label-primary": {
+        "value": "{Color.Grey.neutral white}",
+        "type": "color"
+      },
+      "surface-primary-outline": {
+        "value": "{Color.Grey.neutral 050}",
+        "type": "color"
+      },
+      "text-secondary": {
+        "value": "{Color.Primary.blue 50}",
+        "type": "color"
+      },
+      "icon-active": {
+        "value": "{Color.Accent.celurean 50}",
+        "type": "color"
+      },
+      "bar-background-primary": {
+        "value": "{Color.Primary.blue 10}",
+        "type": "color"
+      },
+      "icon-disabled": {
+        "value": "{Color.Primary.blue 30}",
+        "type": "color"
+      },
+      "Nav Bar": {
+        "nav-background-primary": {
+          "value": "{Color.Grey.neutral 010}",
+          "type": "color"
+        },
+        "nav-icon-active": {
+          "value": "{Color.Primary.blue 70}",
+          "type": "color"
+        },
+        "nav-icon-disabled": {
+          "value": "{Color.Primary.blue 30}",
+          "type": "color"
+        },
+        "nav-background-active": {
+          "value": "{Color.Primary.blue 10}",
+          "type": "color"
+        }
+      },
+      "surface-primary": {
+        "value": "{Color.Grey.neutral white}",
+        "type": "color"
+      },
+      "text-tertiary": {
+        "value": "{Color.Grey.neutral 200}",
+        "type": "color"
+      },
+      "text-error": {
+        "value": "{Color.Semantic.error 50}",
+        "type": "color"
+      },
+      "text-success": {
+        "value": "{Color.Secundary.green 70}",
+        "type": "color"
+      },
+      "text-subtittles": {
+        "value": "{Color.Accent.celurean 50}",
+        "type": "color"
+      },
+      "background-button-primary": {
+        "value": "{Color.Accent.celurean 30}",
+        "type": "color"
+      },
+      "text-content-primary": {
+        "value": "{Color.Accent.celurean 90}",
+        "type": "color"
+      },
+      "background-secundary": {
+        "value": "{Color.Primary.blue 10}",
+        "type": "color"
+      },
+      "text-warning": {
+        "value": "{Color.Semantic.warning 50}",
+        "type": "color"
+      }
+    }
+  },
+  "Tokens/Dark": {
+    "Color": {
+      "background-primary": {
+        "value": "{Color.Primary.blue 90}",
+        "type": "color"
+      },
+      "text-titles": {
+        "value": "{Color.Grey.neutral 010}",
+        "type": "color"
+      },
+      "button-backgroung-primary": {
+        "value": "{Color.Accent.celurean 30}",
+        "type": "color"
+      },
+      "button-label-primary": {
+        "value": "{Color.Grey.neutral 950}",
+        "type": "color"
+      },
+      "surface-primary-outline": {
+        "value": "{Color.Primary.blue 70}",
+        "type": "color"
+      },
+      "text-secondary": {
+        "value": "{Color.Primary.blue 30}",
+        "type": "color"
+      },
+      "icon-active": {
+        "value": "{Color.Accent.celurean 50}",
+        "type": "color"
+      },
+      "bar-background-primary": {
+        "value": "{Color.Primary.blue 90}",
+        "type": "color"
+      },
+      "icon-disabled": {
+        "value": "{Color.Primary.blue 30}",
+        "type": "color"
+      },
+      "Nav Bar": {
+        "nav-background-primary": {
+          "value": "{Color.Grey.neutral 950}",
+          "type": "color"
+        },
+        "nav-icon-active": {
+          "value": "{Color.Primary.blue 10}",
+          "type": "color"
+        },
+        "nav-icon-disabled": {
+          "value": "{Color.Primary.blue 30}",
+          "type": "color"
+        },
+        "nav-background-active": {
+          "value": "{Color.Grey.neutral 600}",
+          "type": "color"
+        }
+      },
+      "surface-primary": {
+        "value": "{Color.Grey.neutral 950}",
+        "type": "color"
+      },
+      "text-tertiary": {
+        "value": "{Color.Grey.neutral 300}",
+        "type": "color"
+      },
+      "text-error": {
+        "value": "{Color.Semantic.error 30}",
+        "type": "color"
+      },
+      "text-success": {
+        "value": "{Color.Secundary.green 30}",
+        "type": "color"
+      },
+      "text-subtittles": {
+        "value": "{Color.Accent.celurean 30}",
+        "type": "color"
+      },
+      "background-button-primary": {
+        "value": "{Color.Accent.celurean 50}",
+        "type": "color"
+      },
+      "text-content-primary": {
+        "value": "{Color.Accent.celurean 50}",
+        "type": "color"
+      },
+      "background-secundary": {
+        "value": "{Color.Primary.blue 50}",
+        "type": "color"
+      },
+      "text-warning": {
+        "value": "{Color.Semantic.warning 30}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Primitives/Value",
+      "Tokens/Light",
+      "Tokens/Dark"
     ]
   }
 }
